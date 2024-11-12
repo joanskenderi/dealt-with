@@ -1,7 +1,13 @@
-import { Form } from './components';
+import { BrowserRouter } from 'react-router-dom';
+
+import { AppRouter } from './router';
 
 const App = () => {
-  return <Form />;
+  return (
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
+  );
 };
 
 export default App;

@@ -1,5 +1,7 @@
+import { Form } from './components';
+
 const App = () => {
-  return <div>App</div>;
+  return <Form />;
 };
 
 export default App;
